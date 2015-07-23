@@ -1,7 +1,8 @@
-import soundplayer.WavPlayer
+import soundplayer.SoundPlayer
 
 object Test {
   def main(args: Array[String]) {
-    WavPlayer.playBoop
+    SoundPlayer.playBoop
+    Thread.sleep(1000);
   }
 }

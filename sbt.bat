@@ -12,6 +12,6 @@ java -Xss2m -Xms2g -Xmx2g ^
   -XX:+UseParallelGC ^
   -XX:MaxPermSize=256m ^
   -Dinput.encoding=Cp1252 ^
-  -jar sbt-launch.jar %*
+  -jar project/sbt/sbt-launch.jar %*
 
 popd
